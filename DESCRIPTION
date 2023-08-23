@@ -1,0 +1,18 @@
+Package: demarcheStat.Exercices
+Title: Chouette, des exos !
+Version: 0.0.0.9000
+Authors@R: 
+    person("Marie", "Etienne", , "metienne@agrocampus-ouest.fr", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-2097-2267"))
+Description: Ce package contient des exercices d'entrainement associé au cours de démarche statistique de L3 Institut Agro
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    learnr
+Imports: 
+    gradethis (>= 0.2.14),
+    palmerpenguins
+Remotes: 
+    rstudio/gradethis

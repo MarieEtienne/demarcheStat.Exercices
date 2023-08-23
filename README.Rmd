@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# demarcheStat.Exercices
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Ce package contient plusieurs tutoriels autour du modèle linéaire
+
+## Installation
+
+You can install the development version of demarcheStat.Exercices like so:
+
+``` {r, include = TRUE, eval = FALSE}
+install.packages('remotes')
+remotes::install_github('MarieEtienne/demarcheStat.Exercices)
+```
+
+## Exemple
+
+Voici les lignes de commandes pour lancer les tutoriels
+
+```{r example}
+library(demarcheStat.Exercices)
+## basic example code
+
+```
+
